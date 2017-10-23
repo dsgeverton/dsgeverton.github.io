@@ -1,0 +1,75 @@
+html ,body{
+
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+  color: white;
+  background-image: url('fundo.jpg');
+  margin: 0px;
+}
+
+.sup{
+  background-image: url('fundo.jpg');
+  background-position: 20%;
+  display: grid;
+  flex-wrap: wrap;
+  height: 15rem;
+}
+
+nav{
+
+}
+.menu{
+  position: absolute;
+  margin-left:  45rem;
+}
+
+nav ul{
+  margin: 0px;
+  display: inline;
+  justify-content: center;
+}
+
+nav li{
+  display: inline;
+  margin: 0;
+  padding: 0 10px;
+}
+
+.titulo{
+  scroll-behavior: smooth;
+  margin-top: 20px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.thumbnail{
+  width: 50px;
+}
+
+.logos{
+
+}
+
+a{
+
+}
+.conteudo{
+  margin: 100%
+}
+
+.fim{
+  background-position: left;
+  background-color: white;
+  text-align: center;
+  color: black;
+
+
+}
+
+.rodape{
+  margin: 0px;
+  text-align: center;
+  justify-content: flex-end;
+}
