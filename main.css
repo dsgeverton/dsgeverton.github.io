@@ -5,12 +5,12 @@ html ,body{
 body{
   font-family: 'Lato', sans-serif;
   color: white;
-  background-image: url('fundo.jpg');
+  background-image: url('https://raw.githubusercontent.com/dsgeverton/dsgeverton.github.io/master/fundo.jpg');
   margin: 0px;
 }
 
 .sup{
-  background-image: url('fundo.jpg');
+  background-image: url('https://raw.githubusercontent.com/dsgeverton/dsgeverton.github.io/master/fundo.jpg');
   background-position: 20%;
   display: grid;
   flex-wrap: wrap;
@@ -22,10 +22,12 @@ nav{
 }
 .menu{
   position: absolute;
-  margin-left:  45rem;
+  margin-left: 50%;
+  left: -71.5px;
 }
 
 nav ul{
+  padding: 0px;
   margin: 0px;
   display: inline;
   justify-content: center;
@@ -38,9 +40,8 @@ nav li{
 }
 
 .titulo{
-  scroll-behavior: smooth;
-  margin-top: 20px;
-  font-size: 40px;
+  margin-top: 3%;
+  font-size: 380%;
   text-align: center;
 }
 
@@ -60,16 +61,12 @@ a{
 }
 
 .fim{
-  background-position: left;
-  background-color: white;
-  text-align: center;
-  color: black;
-
-
+  justify-content: flex-end;
 }
 
 .rodape{
   margin: 0px;
+  margin-bottom: 10px;
   text-align: center;
   justify-content: flex-end;
 }
