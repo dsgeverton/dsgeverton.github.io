@@ -10,7 +10,7 @@ body{
 }
 
 .sup{
-  background-image: url('https://raw.githubusercontent.com/dsgeverton/dsgeverton.github.io/master/fundo.jpg');
+  background-color: #838B83;
   background-position: 20%;
   display: grid;
   flex-wrap: wrap;
